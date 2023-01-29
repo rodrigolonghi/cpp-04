@@ -34,6 +34,7 @@ $(OBJ_DIR):
 
 clean:
 	rm -rf $(OBJ_DIR)
+	rm -f leaks.txt
 
 fclean:	clean
 	rm -f $(NAME)
