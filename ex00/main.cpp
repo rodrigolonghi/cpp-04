@@ -20,5 +20,10 @@ int main()
 	cat->makeSound();
 	wrongAnimal->makeSound();
 	wrongCat->makeSound();
+	delete animal;
+	delete dog;
+	delete cat;
+	delete wrongAnimal;
+	delete wrongCat;
 	return (0);
 }
